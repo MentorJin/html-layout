@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+.top-bar {
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(71, 71, 71);
+}
+
+.body-box {
+  margin: 0 auto;
+  height: 70vh;
+  width: 80vw;
+  background-color: white;
+}
+
+.bottom-bar {
+  bottom: 0;
+  margin: 0 auto;
+  width: 80vw;
+  height: 10vh;
+  background-color: rgb(24, 24, 24);
+}
