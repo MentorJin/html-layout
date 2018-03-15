@@ -4,7 +4,7 @@ body {
 }
 
 .section {
-  height: 33.3vh;
+  height: 30vh;
 }
 
 .top {
@@ -12,6 +12,7 @@ body {
 }
 
 .top-container {
+  box-sizing: border-box;
   margin: auto;
   width: 95vw;
   height: 25vh;
@@ -25,9 +26,9 @@ body {
 
 .left-top {
   height: 60%;
-  width: 7%;
+  width: 5%;
   background-color: purple;
-  margin-right: 7%;
+  margin-right: 5%;
 }
 
 .middle-top {
@@ -42,4 +43,43 @@ body {
   width: 15%;
   border-radius: 50%;
   background-color: rgb(0, 195, 255);
+}
+
+.middle {
+  margin-bottom: 5px;
+}
+
+.middle-container {
+  box-sizing: border-box;
+  margin: auto;
+  height: 35vh;
+  width: 95vw;
+  border: 5px dotted black;
+  padding: 35px;
+}
+
+.middle-box {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(245, 245, 171);
+  box-shadow: 5px 5px 5px 0px black;
+}
+
+.bottom {
+  padding-top: 45px;
+}
+
+.word-box {
+  box-sizing: border-box;
+  margin: auto;
+  height: 25vh;
+  width: 35vw;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 3px 0 gray;
+  color: darkblue;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-top: 50px;
 }
