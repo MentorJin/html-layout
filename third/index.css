@@ -1,0 +1,49 @@
+body {
+  margin: auto;
+  padding: 0;
+}
+
+.whole-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.bar {
+  box-sizing: border-box;
+  height: 12%;
+  width: 100%;
+  padding: 7px;
+}
+
+.top-box {
+  height: 90%;
+  width: 8%;
+  background-color: blue;
+}
+
+.text-space {
+  box-sizing: border-box;
+  height: 40%;
+  padding: 60px;
+  font-size: 27px;
+}
+
+.top {
+  background-color: gray;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
