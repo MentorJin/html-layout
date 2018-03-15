@@ -1,0 +1,45 @@
+body {
+  margin: auto;
+  padding: 0;
+}
+
+.section {
+  height: 33.3vh;
+}
+
+.top {
+  margin-top: 15px;
+}
+
+.top-container {
+  margin: auto;
+  width: 95vw;
+  height: 25vh;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.box {
+  display: inline-block;
+}
+
+.left-top {
+  height: 60%;
+  width: 7%;
+  background-color: purple;
+  margin-right: 7%;
+}
+
+.middle-top {
+  height: 100%;
+  width: 40%;
+  background-color: green;
+}
+
+.right-top {
+  margin-left: 7%;
+  height: 100%;
+  width: 15%;
+  border-radius: 50%;
+  background-color: rgb(0, 195, 255);
+}
